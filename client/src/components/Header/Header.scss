@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+
+  > .logo {
+    width: 50px;
+  }
+
+  > .logout-btn {
+    outline: none;
+    background-color: #7B3FF2;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #5e2ac5;
+    }
+  }
+}

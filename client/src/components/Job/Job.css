@@ -1,0 +1,76 @@
+.job {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.job__details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.job__details__name {
+  display: flex;
+}
+.job__details__name > .name {
+  margin-right: 1rem;
+}
+.job__details__name > .opened {
+  transform: rotate(180deg);
+}
+.job__details__name > .v-icon {
+  cursor: pointer;
+}
+.job__details__general {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.job__details__general > .location, .job__details__general .department {
+  display: flex;
+  gap: 0.2rem;
+}
+.job__apply-btn {
+  background-color: #7B3FF2;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  outline: none;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.job__apply-btn:hover {
+  cursor: pointer;
+  background-color: #5e2ac5;
+}
+
+.job-container {
+  width: 60%;
+}
+
+.job-info-container {
+  margin-top: 1rem;
+  font-size: 14px;
+  color: #4d4d4d;
+}
+.job-info-container ul {
+  padding: 0;
+  list-style-type: none;
+}
+.job-info-container__divider {
+  border-top: 1px solid #7B3FF2;
+  margin: 30px 0px;
+}
+.job-info-container__title {
+  font-weight: bolder;
+}
+.job-info-container__title-underline {
+  text-decoration: underline;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=Job.css.map */

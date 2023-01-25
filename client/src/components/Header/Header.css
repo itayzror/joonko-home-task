@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.header > .logo {
+  width: 50px;
+}
+.header > .logout-btn {
+  outline: none;
+  background-color: #7B3FF2;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+.header > .logout-btn:hover {
+  cursor: pointer;
+  background-color: #5e2ac5;
+}
+
+/*# sourceMappingURL=Header.css.map */
